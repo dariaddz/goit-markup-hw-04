@@ -107,12 +107,19 @@ a{
 .icon-envelope{
     width: 16px;
     height: 12px;
+    fill:var(--primary-color)
 }
 
 .icon-phone{
     width: 10px;
     height: 16px;
-    align-items: center;
+    fill:var(--primary-color)
+}
+
+.nav-contact:hover .nav-icon,
+.nav-contact:focus .nav-icon
+ {
+    fill: var(--accent-color);
 }
 
 .company-logo {
@@ -129,7 +136,10 @@ a{
     color: var(--title-color);
 }
 .nav-contact {
-    color: var(--primary-color)
+    display:flex;
+    align-items: center;
+    
+    color: var(--primary-color);
     
     font-weight: 500;
     line-height: 1.14;
