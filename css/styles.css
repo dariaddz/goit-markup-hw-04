@@ -4,14 +4,14 @@
     --secondary-color-trnsp: #ffffff99;
     --accent-color: #2196f3;
     --title-color: #212121;
-    --background-color-main: #ffffff;
     --background-color-dark: #2f303a;
     --background-color-light: #f5f4fa;
+    --icon-color:#AFB1B8
 }
 
 body {
     color: var(--primary-color);
-    background-color: var(--background-color-main);
+    background-color: var(--secondary-color);
 
     font-family: Roboto, sans-serif;
     font-size: 14px;
@@ -253,14 +253,29 @@ background-repeat: no-repeat;
     height: 120px;
     margin-bottom: 30px;
     background-color: var(--background-color-light);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
 }
 .antenna{
     width: 65px;
     height: 70px;
-    display:flex;
-    align-items: center;
+}
+.clock{
+    width: 67px;
+    height: 70px;
 }
 
+.diagram{
+    width: 70px;
+    height: 54px;
+}
+
+.astronaut{
+    width: 55px;
+    height: 61px;
+}
 /* Activities */
 .activities{
     padding-top:0px; 
@@ -284,7 +299,7 @@ background-repeat: no-repeat;
 } 
 
 .team-card {
-    background-color: var(--background-color-main);
+    background-color: var(--secondary-color);
 border-radius: 0px 0px 4px 4px;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -308,6 +323,56 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
     line-height: 1.19;
     text-align: center;
 }
+.social-links {
+    
+    width: 206px;
+    height: 44px;
+    display:inline-flex;
+    justify-content: space-between;
+    margin: 16px 32px 0 32px;
+    
+}
+
+.link-icon{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    fill:var(--icon-color);
+   }
+.social-icons{
+    width: 20px;
+    height: 20px;
+   
+}
+
+.link-icon:hover{
+    fill:var(--secondary-color);
+    background-color: var(--accent-color);
+}
+
+
+/* .instagram{
+    width: 20px;
+    height: 20px; */
+    /* margin:auto;
+    align-items: center;
+}
+
+.twitter{
+    width: 20px;
+    height: 16px;
+}
+.facebook{   
+    width: 10px;
+    height: 20px;
+}
+.linkedin{
+    width: 20px;
+    height: 20px;
+} */
 /* футер */
 
 .footer {
