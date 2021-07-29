@@ -240,7 +240,8 @@ background-repeat: no-repeat;
 }
 
 .header-activities,
-.header-team {
+.header-team,
+.header-clients{
     color: var(--title-color);
     font-weight: 700;
     font-size: 36px;
@@ -337,7 +338,7 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     fill:var(--icon-color);
@@ -348,31 +349,43 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
    
 }
 
-.link-icon:hover{
+.link-icon:hover,
+.link-icon:focus{
     fill:var(--secondary-color);
     background-color: var(--accent-color);
 }
+/* клиенты */
 
+.clients-links{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
 
-/* .instagram{
-    width: 20px;
-    height: 20px; */
-    /* margin:auto;
+.client-link {
+    display: inline-flex;
+    justify-content: center;
     align-items: center;
+   
+    width: 170px;
+height: 92px;
+border: 1px solid var(--icon-color);
+border-radius: 4px;
+    
+    fill:var(--icon-color);
 }
 
-.twitter{
-    width: 20px;
-    height: 16px;
+.client-link:hover ,
+.client-link:focus {
+    fill:var(--accent-color);
+    border: 1px solid var(--accent-color);
 }
-.facebook{   
-    width: 10px;
-    height: 20px;
+.client-icon{
+    width: 106px;
+    height: 60px;
+
 }
-.linkedin{
-    width: 20px;
-    height: 20px;
-} */
+
 /* футер */
 
 .footer {
