@@ -101,6 +101,18 @@ a{
 }
 .nav-contacts .item + .item{
     margin-left: 50px;
+  
+}
+
+.icon-envelope{
+    width: 16px;
+    height: 12px;
+}
+
+.icon-phone{
+    width: 10px;
+    height: 16px;
+    align-items: center;
 }
 
 .company-logo {
