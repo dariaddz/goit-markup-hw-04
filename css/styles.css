@@ -248,6 +248,19 @@ background-repeat: no-repeat;
     text-align: center;
 }
 
+.feature-picture{
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    background-color: var(--background-color-light);
+}
+.antenna{
+    width: 65px;
+    height: 70px;
+    display:flex;
+    align-items: center;
+}
+
 /* Activities */
 .activities{
     padding-top:0px; 
