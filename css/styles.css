@@ -336,10 +336,6 @@ a {
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
-.client-icon {
-  width: 106px;
-  height: 60px;
-}
 
 /* футер */
 
