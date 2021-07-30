@@ -304,10 +304,6 @@ a {
   align-items: center;
   fill: var(--icon-color);
 }
-.social-icons {
-  width: 20px;
-  height: 20px;
-}
 
 .link-icon:hover,
 .link-icon:focus {
